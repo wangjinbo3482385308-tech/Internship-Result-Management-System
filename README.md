@@ -4,9 +4,9 @@
 This web-based Internship Result Management System is designed for the university to improve the efficiency, transparency, and accuracy of student evaluations during industrial training.The system replaces manual spreadsheets with a secure, role-based platform for Admins and Assessors.
 
 ##  Team Members
-* **Group Leader:** [Your Name] (ID: [Your ID])
-* **Member 1:** [Name] (ID: [ID])
-* **Member 2:** [Name] (ID: [ID])
+* **Group Leader:**  (ID:)
+* **Member 1:**  (ID:)
+* **Member 2:**  (ID:)
 
 ##  Tech Stack
 * **Database:** MySQL
