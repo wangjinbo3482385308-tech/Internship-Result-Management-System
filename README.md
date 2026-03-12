@@ -4,7 +4,7 @@
 This web-based Internship Result Management System is designed for the university to improve the efficiency, transparency, and accuracy of student evaluations during industrial training.The system replaces manual spreadsheets with a secure, role-based platform for Admins and Assessors.
 
 ##  Team Members
-* **Group Leader:**  (ID:)
+* **Group Leader:WANG JINBO**  (ID:20795326)
 * **Member 1:**  (ID:)
 * **Member 2:**  (ID:)
 
