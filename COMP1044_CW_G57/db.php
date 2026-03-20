@@ -14,5 +14,5 @@ if ($conn->connect_error) {
 } 
 
 
-echo "Great！Dtabase connecting successfully！";
+echo " ";
 ?>
