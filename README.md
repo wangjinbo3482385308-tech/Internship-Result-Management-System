@@ -5,7 +5,7 @@ This web-based Internship Result Management System is designed for the universit
 
 ##  Team Members
 * **Group Leader:WANG JINBO**  (ID:20795326)
-* **Member 1:**  (ID:)
+* **Member 1:WANG WENJIE**  (ID:20800774)
 * **Member 2:**  (ID:)
 
 ##  Tech Stack
