@@ -45,7 +45,7 @@ button {
         border-radius: 6px;
         font-size: 1.1rem;
         font-weight: 600;
-            cursor: pointer;
+        cursor: pointer;
             transition: background 0.3s;
         }
 
