@@ -1,58 +1,57 @@
 * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+body {
+        background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        min-height: 100vh;
+        padding: 20px 0; 
+}
 
-        body {
-            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
-            min-height: 100vh;
-            padding: 20px 0; 
-        }
+.login-container {
+        background: white;
+        padding: 2.5rem;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+        margin: 10vh auto; 
+}
 
-        .login-container {
-            background: white;
-            padding: 2.5rem;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-            width: 100%;
-            max-width: 400px;
-            text-align: center;
-            margin: 10vh auto; 
-        }
+h2 { color: #1e3a8a; margin-bottom: 1.5rem; font-size: 1.8rem; }
 
-        h2 { color: #1e3a8a; margin-bottom: 1.5rem; font-size: 1.8rem; }
+.form-group { margin-bottom: 1.2rem; text-align: left; }
+label { display: block; margin-bottom: 0.5rem; color: #4b5563; font-weight: 600; }
 
-        .form-group { margin-bottom: 1.2rem; text-align: left; }
-        label { display: block; margin-bottom: 0.5rem; color: #4b5563; font-weight: 600; }
+input {
+        width: 100%;
+        padding: 0.8rem;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        font-size: 1rem;
+        transition: border-color 0.3s;
+}
 
-        input {
-            width: 100%;
-            padding: 0.8rem;
-            border: 1px solid #d1d5db;
-            border-radius: 6px;
-            font-size: 1rem;
-            transition: border-color 0.3s;
-        }
+input:focus {
+        outline: none;
+        border-color: #3b82f6;
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
 
-        input:focus {
-            outline: none;
-            border-color: #3b82f6;
-            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-        }
-
-        button {
-            width: 100%;
-            padding: 0.8rem;
-            background-color: #1e3a8a;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            font-size: 1.1rem;
+button {
+        width: 100%;
+        padding: 0.8rem;
+        background-color: #1e3a8a;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 1.1rem;
             font-weight: 600;
             cursor: pointer;
             transition: background 0.3s;
         }
 
-        button:hover { background-color: #1d4ed8; }
+button:hover { background-color: #1d4ed8; }
 
-        .error-msg {
+.error-msg {
             background-color: #fee2e2;
             color: #b91c1c;
             padding: 0.7rem;
@@ -62,22 +61,19 @@
         }
 
 
-/* =========================================
-   后台控制台容器样式 (Dashboard Container)
-   ========================================= */
+
 .container {
     background: white;
     padding: 2.5rem;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
     width: 90%;
-    max-width: 1000px; /* 后台界面比登录框宽 */
+    max-width: 1000px; 
     margin: 20px auto; 
-    text-align: left; /* 文字左对齐 */
-    color: #333; /* 文字改成深灰色，保证可读性 */
+    text-align: left; 
+    color: #333; 
 }
 
-/* 顶部导航区域 */
 header {
     display: flex;
     justify-content: space-between;
@@ -93,7 +89,7 @@ header h2 {
 }
 
 .btn-logout {
-    background-color: #ef4444; /* 红色退出按钮 */
+    background-color: #ef4444; 
     color: white;
     padding: 8px 15px;
     border-radius: 6px;
@@ -101,9 +97,6 @@ header h2 {
     font-size: 0.9rem;
 }
 
-/* =========================================
-   数据表格样式 (Data Tables)
-   ========================================= */
 .data-table {
     width: 100%;
     border-collapse: collapse;
@@ -122,7 +115,7 @@ header h2 {
 }
 
 .data-table tr:nth-child(even) {
-    background-color: #f9fafb; /* 隔行变色 */
+    background-color: #f9fafb; 
 }
 
 .btn-assess {
