@@ -1,0 +1,203 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+body {
+        background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        min-height: 100vh;
+        padding: 20px 0; 
+}
+
+.login-container {
+        background: white;
+        padding: 2.5rem;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+        margin: 10vh auto; 
+}
+
+h2 { color: #1e3a8a; margin-bottom: 1.5rem; font-size: 1.8rem; }
+
+.form-group { margin-bottom: 1.2rem; text-align: left; }
+label { display: block; margin-bottom: 0.5rem; color: #4b5563; font-weight: 600; }
+
+input {
+        width: 100%;
+        padding: 0.8rem;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        font-size: 1rem;
+        transition: border-color 0.3s;
+}
+
+input:focus {
+        outline: none;
+        border-color: #3b82f6;
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+button {
+        width: 100%;
+        padding: 0.8rem;
+        background-color: #1e3a8a;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.3s;
+}
+
+button:hover { background-color: #1d4ed8; }
+
+.error-msg {
+        background-color: #fee2e2;
+        color: #b91c1c;
+        padding: 0.7rem;
+        border-radius: 6px;
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+}
+
+
+
+.container {
+        background: white;
+        padding: 2.5rem;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        width: 90%;
+        max-width: 1000px; 
+        margin: 20px auto; 
+        text-align: left; 
+        color: #333; 
+}
+
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid #f3f4f6;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+}
+
+header h2 {
+        color: #1e3a8a;
+        margin: 0;
+}
+
+.btn-logout {
+        background-color: #ef4444; 
+        color: white;
+        padding: 8px 15px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 0.9rem;
+}
+
+.data-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+}
+
+.data-table th, .data-table td {
+        padding: 12px 15px;
+        border: 1px solid #e5e7eb;
+}
+
+.data-table th {
+        background-color: #f9fafb;
+        color: #4b5563;
+        font-weight: 600;
+}
+
+.data-table tr:nth-child(even) {
+        background-color: #f9fafb; 
+}
+
+.btn-assess {
+        color: #3b82f6;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+.btn-assess:hover {
+        text-decoration: underline;
+}
+
+//4.11
+.data-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+.data-table tbody tr:hover {
+    background-color: #e0f2fe; 
+}
+
+.form-group input:focus, 
+.form-group select:focus, 
+textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2); 
+    transition: all 0.3s ease;
+}
+
+.container {
+    transition: box-shadow 0.3s ease;
+}
+.container:hover {
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+input[disabled] {
+    background-color: #f3f4f6;
+    color: #9ca3af;
+    cursor: not-allowed;
+}
+
+//4.24
+
+.action-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    border: none;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.btn-primary { 
+    background-color: #1e3a8a; 
+    color: white; 
+}
+.btn-primary:hover { background-color: #1d4ed8; }
+
+.btn-secondary { 
+    background-color: #e5e7eb; 
+    color: #374151; 
+}
+.btn-secondary:hover { background-color: #d1d5db; }
+
+.btn-danger { 
+    background-color: #ef4444; 
+    color: white; 
+}
+.btn-danger:hover { background-color: #dc2626; }
+
+.btn-sm { 
+    padding: 5px 10px; 
+    font-size: 0.85rem; 
+}
